@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Soccer Pong</title>
+  <meta charset="UTF-8">
+  <style> 
+    html, body {
+    height:100%;
+    margin: 0;
+  }
+
+  body {
+    background: rgb(12, 133, 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  
+  h1{
+    font-size: 4em;
+    color: rgb(123, 203, 206);
+  }
+
+  h2{
+    font-size: 4em;
+    color: rgb(169, 182, 194)
+  }
+  
+  </style>
+</head>
+<h1 id="rightScore"></h1>
+<img src="goal1.png" width="300" height="350">
+<body>
+<canvas width="750" height="585" id="game"></canvas>
+
+<script src="script.js"></script>
+
+<img src="goal.png" width="300" height="350">
+<h2 id="leftScore"></h2>
+</body>
+</html>
